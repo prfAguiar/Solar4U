@@ -1,0 +1,94 @@
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+<style type="text/css">
+    body {
+        background: none transparent !important;
+    }
+</style>
+
+<div class="pergunta-div">
+    <div>
+        <button type="button" class="collapsible">Por que usar energia solar fotovoltaica?</button>
+        <div class="content">
+            <p>Entre os diversos benefícios, “por que usar energia solar” ainda é um fator determinante para a sua utilização. Além da questão ambiental, o sistema de energia solar fotovoltaico contribui para a geração de sua própria energia elétrica, diminuindo o valor de sua conta de luz.</p>
+        </div> 
+    </div>
+    <div>
+        <button type="button" class="collapsible">Como funciona o sistema de energia solar fotovoltaica?</button>
+        <div class="content">
+            <p>Os sistemas de energia solar funcionam a partir de um painel fotovoltaico e outros equipamentos do kit solar que convertem a luz do sol diretamente em energia elétrica. Essa energia pode suprir até todo o consumo elétrico de uma casa, empresa, propriedade rural ou mesmo uma indústria.</p>
+        </div> 
+    </div>
+    <div>
+        <button type="button" class="collapsible">O sistema de energia solar faz barulho?</button>
+        <div class="content">
+            <p>Não, ele é super silencioso. O painel solar produz energia através de um processo fotoquímico, e não mecânico, que não produz barulho algum.</p>
+        </div> 
+    </div>
+    <div>
+        <button type="button" class="collapsible">Como o sistema de energia solar funciona a noite?</button>
+        <div class="content">
+            <p>O sistema de energia solar não produz energia durante a noite e, nesses períodos, a sua casa ou empresa é atendida pela energia da distribuidora. Durante as horas do dia, o seu sistema segue produzindo energia e todo o excedente (o que não foi consumido) é injetado na rede, emprestado para a distribuidora e convertido em créditos para você. Ao final de cada mês, os créditos são automaticamente utilizados para compensar a energia consumida durante a noite, o que proporciona uma economia de até 95% na conta de luz.  </p>
+        </div> 
+    </div>
+    <div>
+        <button type="button" class="collapsible">Eu consigo “zerar” a minha conta de luz com um sistema de energia solar fotovoltaica conectado na rede?</button>
+        <div class="content">
+            <p> Não. Por lei, todos os consumidores conectados à malha elétrica devem pagar pelo custo de disponibilidade da rede, incluindo os consumidores com gerador de energia solar. Essa taxa mínima de luz, como é conhecida no popular, é a forma de arrecadação utilizada para cobrir os custos com a manutenção e reparos da rede, e com a iluminação pública. Dessa forma, mesmo que o seu sistema consiga suprir todo o consumo de sua casa ou empresa, a sua conta de luz nunca será “zerada”, embora a redução do valor possa chegar em até 95% todo mês.</p>
+            <p>De acordo com a Resolução Normativa N°414, de 09 de setembro de 2010, artigo 98, o custo de disponibilidade deve ser calculado por um consumo mínimo em kWh convertido em reais pelo valor da tarifa vigente, segundo as regras: I – 30 KWh conexões monofásicas (2 Condutores) II – 50kWh para conexões bifásicas (3 condutores) III – 100kWh para conexões trifásicas.</p>
+        </div> 
+    </div>
+    <div>
+        <button type="button" class="collapsible">Pergunta 6</button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim, alias vel adipisci inventore delectus harum cupiditate debitis sapiente ducimus earum tempore, repudiandae iure, voluptatem accusamus at iste a. Quas.</p>
+        </div> 
+    </div>
+    <div>
+        <button type="button" class="collapsible">Pergunta 7</button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim, alias vel adipisci inventore delectus harum cupiditate debitis sapiente ducimus earum tempore, repudiandae iure, voluptatem accusamus at iste a. Quas.</p>
+        </div> 
+    </div>
+    <div>
+        <button type="button" class="collapsible">Pergunta 8</button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim, alias vel adipisci inventore delectus harum cupiditate debitis sapiente ducimus earum tempore, repudiandae iure, voluptatem accusamus at iste a. Quas.</p>
+        </div> 
+    </div>
+    <div>
+        <button type="button" class="collapsible">Pergunta 9</button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim, alias vel adipisci inventore delectus harum cupiditate debitis sapiente ducimus earum tempore, repudiandae iure, voluptatem accusamus at iste a. Quas.</p>
+        </div> 
+    </div>
+    <div>
+        <button type="button" class="collapsible">Pergunta 10</button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim, alias vel adipisci inventore delectus harum cupiditate debitis sapiente ducimus earum tempore, repudiandae iure, voluptatem accusamus at iste a. Quas.</p>
+        </div> 
+    </div>
+    <div>
+        <button type="button" class="collapsible">Pergunta 11</button>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim, alias vel adipisci inventore delectus harum cupiditate debitis sapiente ducimus earum tempore, repudiandae iure, voluptatem accusamus at iste a. Quas.</p>
+        </div> 
+    </div>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
